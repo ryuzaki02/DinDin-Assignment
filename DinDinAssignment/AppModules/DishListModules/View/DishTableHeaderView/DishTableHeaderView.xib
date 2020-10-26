@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="8cc-nl-es1" customClass="DishTableHeaderView" customModule="DinDinAssignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="c0j-Ig-BFo">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="jBB-aA-hLN">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <cells/>
+                </collectionView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="a81-Uh-Bjt">
+                    <rect key="frame" x="187.5" y="503" width="39" height="37"/>
+                    <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="currentPageIndicatorTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" red="0.2996451423" green="0.88498588700000003" blue="0.19944464319999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="c0j-Ig-BFo" firstAttribute="top" secondItem="8cc-nl-es1" secondAttribute="top" id="6La-JC-j48"/>
+                <constraint firstItem="c0j-Ig-BFo" firstAttribute="leading" secondItem="8cc-nl-es1" secondAttribute="leading" id="CVW-5v-RhD"/>
+                <constraint firstItem="Hyg-XL-VtM" firstAttribute="bottom" secondItem="a81-Uh-Bjt" secondAttribute="bottom" constant="60" id="EIe-LB-hzz"/>
+                <constraint firstAttribute="bottom" secondItem="c0j-Ig-BFo" secondAttribute="bottom" id="LuO-pn-IAf"/>
+                <constraint firstAttribute="trailing" secondItem="c0j-Ig-BFo" secondAttribute="trailing" id="PHD-Cq-Jrb"/>
+                <constraint firstItem="a81-Uh-Bjt" firstAttribute="centerX" secondItem="8cc-nl-es1" secondAttribute="centerX" id="by8-zl-em3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Hyg-XL-VtM"/>
+            <connections>
+                <outlet property="bannerCollectionView" destination="c0j-Ig-BFo" id="uDE-C5-eJW"/>
+                <outlet property="pageControl" destination="a81-Uh-Bjt" id="MwN-97-fAO"/>
+            </connections>
+            <point key="canvasLocation" x="-39" y="808"/>
+        </view>
+    </objects>
+</document>

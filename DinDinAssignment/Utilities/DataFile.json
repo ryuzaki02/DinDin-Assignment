@@ -1,0 +1,132 @@
+{
+    "banners":[
+        {
+            "id": "1",
+            "image": "banner-1"
+        },
+        {
+            "id": "2",
+            "image": "banner-2"
+        },
+        {
+            "id": "3",
+            "image": "banner-3"
+        }
+    ],
+    "categories":{
+        "Pizza": [
+            {
+                "dishId": "1",
+                "dishType": "Veg",
+                "dishName": "Pizza Marinara",
+                "dishDescription": "Features tomatoes, garlic, oregano, and extra virgin olive oil.",
+                "dishSize": "200 grams, 35 cms",
+                "dishPrice": "45 USD",
+                "dishImage": "pizzaMarinara"
+            },
+            {
+                "dishId": "2",
+                "dishType": "Non-Veg",
+                "dishName": "Pizza Margherita",
+                "dishDescription": "Features tomatoes, sliced mozzarella, basil, and extra virgin olive oil.",
+                "dishSize": "150 grams, 25 cms",
+                "dishPrice": "35 USD",
+                "dishImage": "pizzaMargherita"
+            },
+            {
+                "dishId": "3",
+                "dishType": "Non-Veg",
+                "dishName": "Sicilian Pizza",
+                "dishDescription": "Sicilian pizzas are often topped with bits of tomato, onion, anchovies, and herbs.",
+                "dishSize": "250 grams, 35 cms",
+                "dishPrice": "55 USD",
+                "dishImage": "sicilianPizza"
+            },
+            {
+                "dishId": "4",
+                "dishType": "Non-Veg",
+                "dishName": "Detroit Pizza",
+                "dishDescription": "Detroit pizza traditionally features pepperoni, brick cheese (usually Wisconsin brick cheese), and tomato sauce. Other typical toppings include mushrooms and olives.",
+                "dishSize": "400 grams, 35 cms",
+                "dishPrice": "50 USD",
+                "dishImage": "detroitPizza"
+            }
+        ],
+        "Drinks":[
+            {
+                "dishId": "1",
+                "dishType": "",
+                "dishName": "Caipiroska",
+                "dishDescription": "Vodka, lime chunks and sugar, served frappe and capped with crushed ice.",
+                "dishSize": "Large",
+                "dishPrice": "4 USD",
+                "dishImage": "drink-1"
+            },
+            {
+                "dishId": "2",
+                "dishType": "",
+                "dishName": "Cosmopolitan",
+                "dishDescription": "Vodka & cointreau shaken with fresh lime and cranberry juice.",
+                "dishSize": "Medium",
+                "dishPrice": "5 USD",
+                "dishImage": "drink-2"
+            },
+            {
+                "dishId": "3",
+                "dishType": "",
+                "dishName": "The godfrey",
+                "dishDescription": "Cognac, blackberries accentuated with crème de cassis, grand marnier & a splash of lime served on the rocks.",
+                "dishSize": "Large",
+                "dishPrice": "5 USD",
+                "dishImage": "drink-3"
+            },
+            {
+                "dishId": "4",
+                "dishType": "",
+                "dishName": "Old fashioned",
+                "dishDescription": "A large measure of whisky muddled with brown sugar, angostura bitters and maraschino juice.",
+                "dishSize": "Regular",
+                "dishPrice": "3 USD",
+                "dishImage": "drink-4"
+            }
+        ],
+        "Burgers":[
+            {
+                "dishId": "1",
+                "dishType": "Veg",
+                "dishName": "bd’s all-american",
+                "dishDescription": "Ketchup, yellow mustard, shredded iceberg lettuce,tomato, red onion & pickles.",
+                "dishSize": "630/770 cal",
+                "dishPrice": "10.20 USD",
+                "dishImage": "burger-1"
+            },
+            {
+                "dishId": "2",
+                "dishType": "Non-Veg",
+                "dishName": "Western buffalo",
+                "dishDescription": "100% buffalo burger topped with Monterey Jack cheese, seasoned fried onion straws & BBQ.",
+                "dishSize": "930 cal",
+                "dishPrice": "14.95 USD",
+                "dishImage": "burger-2"
+            },
+            {
+                "dishId": "3",
+                "dishType": "Non-Veg",
+                "dishName": "Bad Ass burger",
+                "dishDescription": "A massive 10oz beef patty with Housemade American Cheese, buttermilk fried bacon, horseradish mayo, lettuce, tomato & pickles.",
+                "dishSize": "1650 cal",
+                "dishPrice": "15.4 USD",
+                "dishImage": "burger-3"
+            },
+            {
+                "dishId": "4",
+                "dishType": "Veg",
+                "dishName": "Magic mushroom",
+                "dishDescription": "A mix of sautéed wild & button mushrooms, Swiss cheese, creamy truffle aioli & arugula.",
+                "dishSize": "870 cal",
+                "dishPrice": "12.75 USD",
+                "dishImage": "burger-4"
+            }
+        ]
+    }
+}
